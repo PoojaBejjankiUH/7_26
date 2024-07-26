@@ -1,0 +1,36 @@
+
+body {
+    background: #1d2630;
+}
+
+* {
+    color: #fff;
+  
+} 
+
+::placeholder {
+    color: rgb(12, 12, 12) !important;
+}
+select option {
+    color: rgb(107, 18, 7);
+}
+
+.form-text.text-muted {
+    color: white;
+}
+    
+select option {
+    color: maroon;
+}
+#update {
+    display:none;
+}
+
+.container1{
+    height: 550px; 
+    overflow-y: scroll ;
+}
+.container{
+    margin: 10px; 
+  
+}

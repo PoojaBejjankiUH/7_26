@@ -1,0 +1,1497 @@
+{
+    "programs": [
+        {
+            "pid": "program1",
+            "name": "Engineering",
+            "years": [
+                {
+                    "year": 1,
+                    "semesters": [
+                        {
+                            "semester": "Fall",
+                            "courses": [
+                                "CHEM 1111",
+                                "CHEM 1311",
+                                "ENGI 1100",
+                                "ENGL 1301",
+                                "HIST 1301",
+                                "MATH 2413"
+                            ]
+                        },
+                        {
+                            "semester": "Spring",
+                            "courses": [
+                                "ENGI 1331",
+                                "ENGL 1302",
+                                "HIST 1302",
+                                "MATH 2414",
+                                "PHYS 2325",
+                                "PHYS 2125"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "year": 2,
+                    "semesters": [
+                        {
+                            "semester": "Fall",
+                            "courses": [
+                                "ECE 2201",
+                                "MATH 2415",
+                                "MATH 3321",
+                                "PHYS 2326",
+                                "PHYS 2126",
+                                "GOVT 2306"
+                            ]
+                        },
+                        {
+                            "semester": "Spring",
+                            "courses": [
+                                "ENGI 2304",
+                                "ECE 2202",
+                                "ECE 2100",
+                                "ECE 3331",
+                                "ECE 3441",
+                                "CORE"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "year": 3,
+                    "semesters": [
+                        {
+                            "semester": "Fall",
+                            "courses": [
+                                "COSC 1437",
+                                "ECE 3155",
+                                "ECE 3355",
+                                "ECE 3436",
+                                "ECE 3337",
+                                "ECE 3317"
+                            ]
+                        },
+                        {
+                            "semester": "Spring",
+                            "courses": [
+                                "MATH 3336",
+                                "ECE 5367",
+                                "ECE Elect/Lab",
+                                "INDE 2333",
+                                "ECON 2302"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "year": 4,
+                    "semesters": [
+                        {
+                            "semester": "Fall",
+                            "courses": [
+                                "COSC 2436",
+                                "ECE 4335",
+                                "ECE 3457",
+                                "CpE Elect/Lab"
+                            ]
+                        },
+                        {
+                            "semester": "Spring",
+                            "courses": [
+                                "GOVT 2305",
+                                "ECE 4336",
+                                "CpE Elect/Lab",
+                                "COSC 4351",
+                                "CORE II"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+          "pid": "program2",
+          "name": "Engineering",
+          "years": [
+              {
+                  "year": 2,
+                  "semesters": [
+                      {
+                          "semester": "Fall",
+                          "courses": [
+                            "ENGI 1331",
+                            "ENGL 1302",
+                            "HIST 1302",
+                            "MATH 2414",
+                            "PHYS 2325",
+                            "PHYS 2125"
+                          ]
+                      },
+                      {
+                          "semester": "Spring",
+                          "courses": [
+                              "CHEM 1111",
+                              "CHEM 1311",
+                              "ENGI 1100",
+                              "ENGL 1301",
+                              "HIST 1301",
+                              "MATH 2413"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "year": 2,
+                  "semesters": [
+                      {
+                          "semester": "Fall",
+                          "courses": [
+                              "ECE 2201",
+                              "MATH 2415",
+                              "MATH 3321",
+                              "PHYS 2326",
+                              "PHYS 2126",
+                              "GOVT 2306"
+                          ]
+                      },
+                      {
+                          "semester": "Spring",
+                          "courses": [
+                              "ENGI 2304",
+                              "ECE 2202",
+                              "ECE 2100",
+                              "ECE 3331",
+                              "ECE 3441",
+                              "CORE"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "year": 3,
+                  "semesters": [
+                      {
+                          "semester": "Fall",
+                          "courses": [
+                              "COSC 1437",
+                              "ECE 3155",
+                              "ECE 3355",
+                              "ECE 3436",
+                              "ECE 3337",
+                              "ECE 3317"
+                          ]
+                      },
+                      {
+                          "semester": "Spring",
+                          "courses": [
+                              "MATH 3336",
+                              "ECE 5367",
+                              "ECE Elect/Lab",
+                              "INDE 2333",
+                              "ECON 2302"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "year": 4,
+                  "semesters": [
+                      {
+                          "semester": "Fall",
+                          "courses": [
+                              "COSC 2436",
+                              "ECE 4335",
+                              "ECE 3457",
+                              "CpE Elect/Lab"
+                          ]
+                      },
+                      {
+                          "semester": "Spring",
+                          "courses": [
+                              "GOVT 2305",
+                              "ECE 4336",
+                              "CpE Elect/Lab",
+                              "COSC 4351",
+                              "CORE II"
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+    ],
+    "courses": [
+        {
+            "courseCode": "CHEM 1111",
+            "courseName": "Fundamentals of Chemistry Lab",
+            "credits": 1,
+            "type": "core",
+            "details": {
+                "title": "Fundamentals of Chemistry Lab",
+                "lectureContactHours": 0,
+                "labContactHours": 3,
+                "prerequisite": "Credit for or concurrent enrollment in CHEM 1311.",
+                "corequisite": "N/A",
+                "description": "Illustrates and reinforces principles and concepts by use of qualitative and quantitative experiments, emphasizing interpretation and reporting of data and facility in handling scientific instruments.",
+                "repeatability": false,
+                "note": "Credit may not be applied toward a degree for both CHEM 1111 and CHEM 1105 or CHEM 1117.",
+                "coreCategory": "N/A",
+                "tccnsEquivalent": "CHEM 1111",
+                "additionalFee": true,
+                "fee_type": "N/A",
+                "formerly": "N/A",
+                "typicallyoffered": "N/A"
+            }
+        },
+        {
+            "courseCode": "CHEM 1311",
+            "courseName" : "Fundamentals of Chemistry",
+            "credits": 3,
+            "type": "core",
+            "details": {
+                "title": "Fundamentals of Chemistry",
+                "lectureContactHours": 3,
+                "labContactHours": 0,
+                "prerequisite": "MATH 2312 or equivalent.",
+                "corequisite": "N/A",
+                "description": "General principles, fundamental laws, atomic & molecular structure, states of matter, & elementary inorganic, nuclear & organic chemistry.",
+                "repeatability": false,
+                "note": "For science and engineering majors. May not be applied toward a degree until CHEM 1111 is successfully completed. Credit may not be applied to a degree for both CHEM 1311 and CHEM 1305 or CHEM 1372.",
+                "coreCategory": "(30) Core-Life & Physical Sciences",
+                "tccnsEquivalent": "CHEM 1311",
+                "additionalFee": true,
+                "fee_type": "N/A",
+                "formerly": "N/A",
+                "typicallyoffered": "N/A"
+            }
+        },
+        {
+            "courseCode": "ENGI 1100",
+            "courseName" : "Introduction to Engineering",
+            "credits": 1,
+            "type": "core",
+            "details": {
+              "title": "Introduction To Engineering",
+              "lectureContactHours": 0,
+              "labContactHours": 3,
+              "prerequisite": "N/A",
+              "corequisite": "Credit for or enrollment in MATH 2413.",
+              "description": "Engineering undergraduate standing or permission of the Director of Undergraduate Programs in Engineering. Overview of engineering, information about various engineering disciplines, introductory problem-solving, engineering design, and engineering ethics.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+        },
+        {
+            "courseCode": "ENGL 1301",
+            "courseName" : "First Year Writing I",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "First Year Writing I",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "A TSI placement score of at least 340, and an essay score of at least a 4 on the TSI Writing Assessment; or a placement score of less than 340, and an ABE Diagnostic level of at least 4, and an essay score of at least 5 on the TSI Writing Assessment; and a score ranging from 351 to 390 on the TSI Reading Assessment. Students may exempt the TSI by obtaining satisfactory scores on other accepted standardized tests. See http://www.uh.edu/ussc/tsi/ for details.",
+              "corequisite": "N/A",
+              "description": "First Year Writing course focusing on developing writing skills.",
+              "repeatability": false,
+              "note": "Students who score below the minimum on the TSI must enroll concurrently in ENGL 1300 or, if slightly below the minimum writing score, in ENGL 1100. Students who score below the minimum on the TSI Reading Assessment must enroll concurrently in IRW 1300.",
+              "coreCategory": "(10) Core-Communication",
+              "tccnsEquivalent": "ENGL 1301",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "HIST 1301",
+            "courseName" : "The United States To 1877",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "The United States to 1877*",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "N/A",
+              "corequisite": "N/A",
+              "description": "The social, economic, and political history of the United States to 1877.",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "(60) Core-American History",
+              "tccnsEquivalent": "HIST 1301",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "HIST 1377",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "MATH 2413",
+            "courseName" : "Calculus I",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Calculus I",
+              "lectureContactHours": 3,
+              "labContactHours": 3,
+              "prerequisite": "Credit for MATH 2312 with a grade of C- or higher, or a satisfactory score on a placement examination.",
+              "corequisite": "N/A",
+              "description": "Calculus of rational functions, limits, derivatives, applications of the derivative, antiderivatives, the definite integral with applications, mean value theorem, fundamental theorem of calculus, and numerical integration.",
+              "repeatability": true,
+              "note": "N/A",
+              "coreCategory": "(90) Core-Math/Reasoning, Component Area Option; (20) Core-Mathematics",
+              "tccnsEquivalent": "MATH 2413",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+        },
+        {
+            "courseCode": "ENGI 1331",
+            "courseName" : "Computing for Engineers",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Computing and Problem Solving for Engineers",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "ENGI 1100, MATH 2413 and CHEM 1311 OR PHYS 2325.",
+              "corequisite": "N/A",
+              "description": "Engineering undergraduate standing or permission of the Director of Undergraduate Programs in Engineering. Introduction to computing; matrix arithmetic, programming constructs, algorithms and graphical visualization using MATLAB; problem solving applications in engineering analysis and design.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ENGL 1302",
+            "courseName" : "First Year Writing II",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "First Year Writing II",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "ENGL 1301 or equivalent.",
+              "corequisite": "N/A",
+              "description": "Detailed study of the principles of rhetoric as applied to analyzing and writing argumentative and persuasive essays; principles and methods of research, culminating in writing a substantial research paper.",
+              "repeatability": false,
+              "note": "Credit may not be received for both ENGL 1302 and ENGL 1310 or ENGL 1370.",
+              "coreCategory": "(10) Core-Communication",
+              "tccnsEquivalent": "ENGL 1302",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "HIST 1302",
+            "courseName" : "The U.S. Since 1877",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "The United States Since 1877",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "N/A",
+              "corequisite": "N/A",
+              "description": "The social, economic, and political history of the United States since 1877.",
+              "repeatability": false,
+              "note": "Formerly HIST 1378",
+              "coreCategory": "(60) Core-American History",
+              "tccnsEquivalent": "HIST 1302",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "HIST 1378",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "MATH 2414",
+            "courseName" : "Calculus II",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Calculus II",
+              "lectureContactHours": 3,
+              "labContactHours": 3,
+              "prerequisite": "Credit for MATH 2413 with a grade of C- or higher.",
+              "corequisite": "N/A",
+              "description": "Calculus of transcendental functions: additional techniques and applications of integration, indeterminate forms, improper integrals, Taylor’s formula, and infinite series.",
+              "repeatability": true,
+              "note": "N/A",
+              "coreCategory": "(90) Core-Math/Reasoning, Component Area Option",
+              "tccnsEquivalent": "MATH 2414",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "PHYS 2325",
+            "courseName" : "University Physics I",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "University Physics I (lecture)",
+              "lectureContactHours": 3,
+              "labContactHours": 1,
+              "prerequisite": "N/A",
+              "corequisite": "Credit for or concurrent enrollment in MATH 2414.",
+              "description": "First semester of a two part calculus-based course covering mechanics of one- and two-dimensional motion, dynamics, energy, momentum, rotational dynamics and kinematics, statics, gravity, oscillations, waves and fluids.",
+              "repeatability": false,
+              "note": "Primarily for science and engineering majors. Credit may not be applied toward degree for both PHYS 2325 and PHYS 1301.",
+              "coreCategory": "(30) Core-Life & Physical Sciences",
+              "tccnsEquivalent": "PHYS 2325",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "PHYS 2125",
+            "courseName" : "University Physics Laboratory I",
+            "credits": 1,
+            "type": "core",
+            "details": {
+              "title": "University Physics Laboratory I (lab)",
+              "lectureContactHours": 0,
+              "labContactHours": 3,
+              "prerequisite": "N/A",
+              "corequisite": "Credit for or concurrent enrollment in PHYS 2325.",
+              "description": "Experiments in mechanics and wave motion.",
+              "repeatability": false,
+              "note": "Credit may not be applied toward a degree for both PHYS 2125 and PHYS 1101.",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "PHYS 2125",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 2201",
+            "courseName" : "Circuit Analysis I",
+            "credits": 2,
+            "type": "core",
+            "details": {
+              "title": "Circuit Analysis I",
+              "lectureContactHours": 1,
+              "labContactHours": 3,
+              "prerequisite": "ENGI 1100, ENGI 1331, ENGL 1301 or ENGL 1309, ENGL 1302 or ENGL 1310, MATH 2413, MATH 2414, PHYS 2125, PHYS 2325.",
+              "corequisite": "MATH 2415, MATH 3321, or MATH 2318 and MATH 3331, PHYS 2126, and PHYS 2326.",
+              "description": "Analysis of resistive circuits, including node voltage and mesh current methods, and Thevenin and Norton equivalent circuits.",
+              "repeatability": false,
+              "note": "Major exams given on Saturdays.",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "Engineering Equipment Access Fee",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "MATH 2415",
+            "courseName" : "Calculus III",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Calculus III",
+              "lectureContactHours": 3,
+              "labContactHours": 3,
+              "prerequisite": "MATH 2414.",
+              "corequisite": "N/A",
+              "description": "Calculus of functions of several variables: calculus of vector-valued functions, partial differentiation, multiple integrals.",
+              "repeatability": true,
+              "note": "N/A",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "MATH 2415",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "MATH 3321",
+            "courseName" : "Engineering Mathematics",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Engineering Mathematics",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "MATH 2414.",
+              "corequisite": "N/A",
+              "description": "First order ordinary differential equations and initial value problems; higher order differential equations; vector spaces, matrices, determinants, eigenvectors and eigenvalues; applications to systems of first order equations; Laplace transforms.",
+              "repeatability": false,
+              "note": "Students may not receive credit for both MATH 3321 and MATH 3331.",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "PHYS 2326",
+            "courseName" : "University Physics II",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "University Physics II (lecture)",
+              "lectureContactHours": 3,
+              "labContactHours": 1,
+              "prerequisite": "PHYS 2325",
+              "corequisite": "Credit for or concurrent enrollment in MATH 2415.",
+              "description": "Second semester of a two part calculus-based course covering thermodynamics, electricity, magnetism, electromagnetic waves, optics, and modern physics.",
+              "repeatability": false,
+              "note": "Primarily for science and engineering majors. Credit may not be applied toward degree for both PHYS 2326 and PHYS 1302.",
+              "coreCategory": "(30) Core-Life & Physical Sciences",
+              "tccnsEquivalent": "PHYS 2326",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "PHYS 2126",
+            "courseName" : "University Physics Laboratory II",
+            "credits": 1,
+            "type": "core",
+            "details": {
+              "title": "University Physics Laboratory II",
+              "lectureContactHours": 0,
+              "labContactHours": 3,
+              "prerequisite": "N/A",
+              "corequisite": "Credit for or concurrent enrollment in PHYS 2326.",
+              "description": "Experiments in thermodynamics, electricity, magnetism, and optics.",
+              "repeatability": false,
+              "note": "Credit may not be applied toward a degree for both PHYS 2126 and PHYS 1102.",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "PHYS 2126",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "GOVT 2306",
+            "courseName" : "U.S. & TX Constitution/Politics",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "US and Texas Constitution and Politics",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "N/A",
+              "corequisite": "N/A",
+              "description": "Introduction to the constitutions and politics of the United States and Texas, emphasizing constitutional structure, federalism, separation of powers, limited government, public opinion, elections, and civil liberties.",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "(70) Core-Government/Political Science",
+              "tccnsEquivalent": "GOVT 2306",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "POLS 1336",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ENGI 2304",
+            "courseName" : "Technical Communications",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Technical Communications for Engineers",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "ENGI 1100, ENGL 1302, engineering undergraduate standing, and completion of one of the following courses: ECE 2201, CHEE 2331, ENGR 2301, INDE 2333, MECE 2336, PETR 2311 or permission of the Director of Undergraduate Programs.",
+              "corequisite": "N/A",
+              "description": "Engineering communication skills: written proposals, specifications, progress reports, and technical reports; individual and group oral presentations; essays on engineering ethics, contemporary engineering issues and the impact of engineering decisions.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "(81) Core-Writing in Discipline WID",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "Engineering Equipment Access Fee",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 2202",
+            "courseName" : "Circuit Analysis II",
+            "credits": 2,
+            "type": "core",
+            "details": {
+              "title": "Circuit Analysis II",
+              "lectureContactHours": 1,
+              "labContactHours": 3,
+              "prerequisite": "ECE 2201 and PHYS 2126.",
+              "corequisite": "N/A",
+              "description": "Analysis of electric circuits, including inductors, capacitors, and first order circuits; sinusoidal analysis.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 2100",
+            "courseName" : "Circuit Analysis Laboratory I",
+            "credits": 1,
+            "type": "core",
+            "details": {
+              "title": "Circuit Analysis Laboratory",
+              "lectureContactHours": 0,
+              "labContactHours": 3,
+              "prerequisite": "Credit for or concurrent enrollment in ECE 2202.",
+              "corequisite": "N/A",
+              "description": "Introduction to the electronics laboratory equipment. Introductory experiments in circuit analysis. Formal report writing. This laboratory course is a prerequisite for all other ECE laboratory courses.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3331",
+            "courseName" : "Programming Applications in ECE",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Programming Applications in Electrical and Computer Engineering",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "MATH 3321 and credit for or concurrent enrollment in ECE 2201.",
+              "corequisite": "N/A",
+              "description": "Procedural programming in C and C++, with applications in electrical and computer engineering.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3441",
+            "courseName" : "Digital Logic Design",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Digital Logic Design",
+              "lectureContactHours": 3,
+              "labContactHours": 3,
+              "prerequisite": "ECE 2201.",
+              "corequisite": "Credit for or concurrent enrollment in ECE 2100.",
+              "description": "Boolean algebra, combinational logic, sequential machine analysis and synthesis.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "CORE",
+            "courseName" : "Creative Arts",
+            "credits": 3,
+            "type": "elective",
+            "category": "arts"
+          },
+          {
+            "courseCode": "COSC 1437",
+            "courseName" : "Intro to Programming",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Introduction to Programming",
+              "lectureContactHours": 3,
+              "labContactHours": 1,
+              "prerequisite": "A grade of C- or better in COSC 1336, and credit for or concurrent enrollment in MATH 2413.",
+              "corequisite": "MATH 2413",
+              "description": "Fundamental concepts of structured programming; procedures and elementary data structures with a focus on problem solving strategies and implementation; computer organization, structured procedural programming, C/C++ programming language, and algorithm design.",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "COSC 1437",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3155",
+            "courseName" : "Electronics Lab",
+            "credits": 1,
+            "type": "core",
+            "details": {
+              "title": "Electronics Laboratory",
+              "lectureContactHours": 0,
+              "labContactHours": 4,
+              "prerequisite": "ECE 2100 and ENGI 2304 and credit for or concurrent enrollment in ECE 3355.",
+              "corequisite": "N/A",
+              "description": "Laboratory projects concerning topics studied in electronics.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3355",
+            "courseName" : "Electronics",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Electronics",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "ECE 2202.",
+              "corequisite": "Credit for or concurrent enrollment in ECE 3337 and ECE 3155.",
+              "description": "Signal and amplifier concepts; operational amplifiers; diodes and nonlinear circuits; bipolar junction transistors; biasing, small and large signal analysis; transistor amplifiers.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3436",
+            "courseName" : "Microprocessors",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Microprocessor Systems",
+              "lectureContactHours": 3,
+              "labContactHours": 3,
+              "prerequisite": "ECE 3331 and ECE 3441.",
+              "corequisite": "Credit for or concurrent enrollment in ECE 2100.",
+              "description": "Memory devices, microcomputer architecture, assembly language programming, I/O programming, I/O interface design, data communications, and data acquisition systems. Laboratory exercises in assembly language and C.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3337",
+            "courseName" : "Signal & System Analysis",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Signals and Systems Analysis",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "ECE 2202.",
+              "corequisite": "N/A",
+              "description": "Time and frequency domain techniques for signals and systems analysis. Engineering applications of the convolution integral, Fourier series and transforms, and Laplace transforms.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3317",
+            "courseName" : "Applied EM Waves",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Applied Electromagnetic Waves",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "PHYS 2126 and PHYS 2326.",
+              "corequisite": "Credit for or concurrent enrollment in ECE 3337.",
+              "description": "Maxwell’s equations in time and frequency domains, Poynting’s theorem, plane wave propagation, reflection and transmission in lossless and lossy media, transmission lines, waveguides, and antennas.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "Engineering Equipment Access Fee",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "MATH 3336",
+            "courseName" : "Discrete Mathematics",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Discrete Mathematics",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "MATH 2318 or equivalent.",
+              "corequisite": "N/A",
+              "description": "Topics selected from logic, set theory, combinatorics, and graph theory.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 5367",
+            "courseName" : "Intro to Comp Architecture Design",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Introduction to Computer Architecture and Design",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "ECE 3436 and ECE 3441.",
+              "corequisite": "N/A",
+              "description": "Computer organization, computer arithmetic, instruction sets, programming with MIPS assembly language, CPU design, pipelining, and memory hierarchy including caching and virtual memory.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE Elect/Lab",
+            "courseName" : "ECE Elective and Lab",
+            "credits": 4,
+            "type": "elective",
+            "category": "ece"
+          },
+          {
+            "courseCode": "INDE 2333",
+            "courseName" : "Engineering Statistics I",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Engineering Statistics I",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "MATH 2414 and ENGI 1331.",
+              "corequisite": "N/A",
+              "description": "Basic concepts of probability, discrete and continuous probability distributions, joint distributions for two random variables, covariance and correlation, descriptive statistics, and one-sample statistical inference (confidence interval and hypothesis testing) for engineering problems.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "Engineering Equipment Access Fee",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECON 2302",
+            "courseName" : "Principles of Microeconomics",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Principles of Microeconomics",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "MATH 1314 or equivalent or consent of instructor.",
+              "corequisite": "N/A",
+              "description": "Individual consumer and firm behavior, supply and demand and the market determination of prices, production, and income. Includes government price ceilings, monopoly and antitrust, market failures, and environmental pollution.",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "(80) Core-Social & Behavioral Science",
+              "tccnsEquivalent": "ECON 2302",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "COSC 2436",
+            "courseName" : "Programming & Data Structures",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Programming and Data Structures",
+              "lectureContactHours": 3,
+              "labContactHours": 1,
+              "prerequisite": "A grade of C- or better in COSC 1437 and credit for or concurrent enrollment in MATH 2414.",
+              "corequisite": "N/A",
+              "description": "Introduction to fundamental data structures: arrays, lists, stacks, queues, hash tables, trees; sorting and searching; graph algorithms; design, analysis, and comparison of algorithms. Correctness verification techniques such as assertions and invariants. Review program specification, unit testing, and debugging.",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "COSC 2436",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 4335",
+            "courseName" : "ECE Design I",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Electrical and Computer Engineering Design I",
+              "lectureContactHours": 2,
+              "labContactHours": 3,
+              "prerequisite": "ECE 3155, ECE 3317, ECE 3340, ECE 3355, ECE 3436, INDE 2333, and a core approved economics elective.",
+              "corequisite": "N/A",
+              "description": "Propose and begin team projects involving open-ended design problems supplied by industry and faculty. Professionalism, research methodologies, design tools, and technical communication.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 3457",
+            "courseName" : "Digital Electronics",
+            "credits": 4,
+            "type": "core",
+            "details": {
+              "title": "Digital Electronics",
+              "lectureContactHours": 3,
+              "labContactHours": 3,
+              "prerequisite": "ECE 3355.",
+              "corequisite": "N/A",
+              "description": "Analysis of discrete and integrated digital electronic devices and components and their use in the design and implementation of digital circuits.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "CpE Elect/Lab",
+            "courseName" : "Approved CpE Elective and Lab",
+            "credits": 4,
+            "type": "elective",
+            "category": "cpe"
+          },
+          {
+            "courseCode": "GOVT 2305",
+            "courseName" : "U.S. Government",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "US Government: Congress, President, & Courts",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "N/A",
+              "corequisite": "N/A",
+              "description": "Introduction to the institutions of government with an emphasis on the congress, the president, and the federal courts. (Introductory category.)",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "(70) Core-Government/Political Science",
+              "tccnsEquivalent": "GOVT 2305",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "POLS 1337",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "ECE 4336",
+            "courseName" : "ECE Design II",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Electrical and Computer Engineering Design II",
+              "lectureContactHours": 2,
+              "labContactHours": 3,
+              "prerequisite": "ECE 4335 and graduating senior standing.",
+              "corequisite": "N/A",
+              "description": "Complete, construct, demonstrate, and defend team projects begun in ECE 4335.",
+              "repeatability": false,
+              "note": "",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": false,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "N/A"
+            }
+          },
+          {
+            "courseCode": "CpE Elect/Lab",
+            "courseName" : "Approved CpE Elective and Lab",
+            "credits": 4,
+            "type": "elective",
+            "category": "cpe"
+          },
+          {
+            "courseCode": "COSC 4351",
+            "courseName" : "Fundamentals of Software Engr",
+            "credits": 3,
+            "type": "core",
+            "details": {
+              "title": "Fundamentals of Software Engineering",
+              "lectureContactHours": 3,
+              "labContactHours": 0,
+              "prerequisite": "COSC majors and minors: A grade of C- or better in COSC 3320 and MATH 3336; CpE majors: A grade of C- or better in COSC 2320 and MATH 3336.",
+              "corequisite": "N/A",
+              "description": "Introduction to the concepts of software engineering. Identification of problems related to the development of large software systems. Software project planning, requirements analysis, design, implementation, quality assurance and maintenance.",
+              "repeatability": false,
+              "note": "N/A",
+              "coreCategory": "N/A",
+              "tccnsEquivalent": "N/A",
+              "additionalFee": true,
+              "fee_type": "N/A",
+              "formerly": "N/A",
+              "typicallyoffered": "Fall"
+            }
+          },
+          {
+            "courseCode": "CORE II",
+            "courseName" : "Language, Philosophy & Culture",
+            "credits": 3,
+            "type": "elective",
+            "category": "language"
+          }
+    ],
+    "electives": {
+        "arts": [
+            {
+                "courseCode": "ARTS 1304",
+                "courseName" : "Art History II",
+                "credits": 4,
+                "type": "elective",
+                "category": "arts",
+                "details": {
+                    "title": "Art History II (15th Century to the Present)",
+                    "lectureContactHours": 3,
+                    "labContactHours": 0,
+                    "prerequisite": "ENGL 1301.",
+                    "corequisite": "N/A",
+                    "description": "Art and its relationship to society in and for which it was made from the Renaissance to the present.",
+                    "repeatability": false,
+                    "note": "Required for art and art history majors.",
+                    "coreCategory": "(50) Core-Creative Arts",
+                    "tccnsEquivalent": "ARTS 1304",
+                    "additionalFee": true,
+                    "fee_type": "N/A",
+                    "formerly": "N/A",
+                    "typicallyoffered": "N/A"
+                }
+            },
+            {
+                "courseCode": "DRAM 1310",
+                "courseName" : "Introduction to Theatre",
+                "credits": 3,
+                "type": "elective",
+                "category": "arts",
+                "details": {
+                    "title": "Introduction to Theatre",
+                    "lectureContactHours": 3,
+                    "labContactHours": 0,
+                    "prerequisite": "N/A",
+                    "corequisite": "N/A",
+                    "description": "Students will gain a genuine appreciation for the art and craft of theatre by reading, attending, and writing critically about plays.",
+                    "repeatability": false,
+                    "note": "N/A",
+                    "coreCategory": "(50) Core-Creative Arts",
+                    "tccnsEquivalent": "DRAM 1310",
+                    "additionalFee": true,
+                    "fee_type": "N/A",
+                    "formerly": "N/A",
+                    "typicallyoffered": "N/A"
+                }
+            },
+            {
+                "courseCode": "MUSI 1307",
+                "courseName" : "Listening to Classical Music",
+                "credits": 3,
+                "type": "elective",
+                "category": "arts",
+                "details": {
+                  "title": "Listening to Classical Music",
+                  "lectureContactHours": 3,
+                  "labContactHours": 0,
+                  "prerequisite": "ENGL 1302.",
+                  "corequisite": "N/A",
+                  "description": "An introduction to the masterworks of Western music from Gregorian chant to the present.",
+                  "repeatability": false,
+                  "note": "N/A",
+                  "coreCategory": "(50) Core-Creative Arts",
+                  "tccnsEquivalent": "MUSI 1307",
+                  "additionalFee": true,
+                  "fee_type": "N/A",
+                  "formerly": "N/A",
+                  "typicallyoffered": "N/A"
+                }
+              },
+              {
+                "courseCode": "THEA 1332",
+                "courseName" : "Fundamentals of Theatre",
+                "credits": 3,
+                "type": "elective",
+                "category": "arts",
+                "details": {
+                  "title": "Fundamentals of Theatre",
+                  "lectureContactHours": 3,
+                  "labContactHours": 0,
+                  "prerequisite": "Acceptance to the major by audition/portfolio review and consent of instructor.",
+                  "corequisite": "N/A",
+                  "description": "Critical appreciation and practice of live theatre, emphasizing the synthesis of acting, direction, and design in the context of contemporary theatrical production.",
+                  "repeatability": false,
+                  "note": "N/A",
+                  "coreCategory": "(50) Core-Creative Arts",
+                  "tccnsEquivalent": "N/A",
+                  "additionalFee": true,
+                  "fee_type": "N/A",
+                  "formerly": "N/A",
+                  "typicallyoffered": "N/A"
+                }
+              },
+              {
+                "courseCode": "ARTH 1300",
+                "courseName" : "Ways of Seeing: Art and Our Visual World",
+                "credits": 3,
+                "type": "elective",
+                "category": "arts",
+                "details": {
+                  "title": "Ways of Seeing: Art and Our Visual World",
+                  "lectureContactHours": 3,
+                  "labContactHours": 0,
+                  "prerequisite": "ENGL 1301.",
+                  "corequisite": "N/A",
+                  "description": "Examination of our visual world and the various ways in which that world has been analyzed and valued. May not be applied to a major or minor in art history or art.",
+                  "repeatability": false,
+                  "note": "N/A",
+                  "coreCategory": "(40) Core-Language, Philosophy & Culture",
+                  "tccnsEquivalent": "N/A",
+                  "additionalFee": true,
+                  "fee_type": "N/A",
+                  "formerly": "N/A",
+                  "typicallyoffered": "N/A"
+                }
+              }
+        ],
+        "ece": [
+            {
+                "courseCode": "ECE 3456",
+                "courseName" : "Analog Electronics",
+                "credits": 4,
+                "type": "elective",
+                "category": "ece",
+                "details": {
+                    "title": "Analog Electronics",
+                    "lectureContactHours": 3,
+                    "labContactHours": 3,
+                    "prerequisite": "ECE 3155 and ECE 3355.",
+                    "corequisite": "N/A",
+                    "description": "Bipolar, MOS, and JFET transistors; multistage amplifier design; frequency response and feedback concepts; operational amplifiers; analysis and design using discrete and integrated devices.",
+                    "repeatability": false,
+                    "note": "N/A",
+                    "coreCategory": "N/A",
+                    "tccnsEquivalent": "N/A",
+                    "additionalFee": false,
+                    "fee_type": "N/A",
+                    "formerly": "N/A",
+                    "typicallyoffered": "N/A"
+                }
+            },
+            {
+                "courseCode": "ECE 4113",
+                "courseName" : "Energy Conversion Laboratory",
+                "credits": 1,
+                "type": "elective",
+                "category": "ece",
+                "details": {
+                  "title": "Energy Conversion Laboratory",
+                  "lectureContactHours": 0,
+                  "labContactHours": 3,
+                  "prerequisite": "ECE 2100 and credit for or concurrent enrollment in ECE 4363.",
+                  "corequisite": "N/A",
+                  "description": "Selected experiments in electromechanical energy conversion devices.",
+                  "repeatability": false,
+                  "note": "N/A",
+                  "coreCategory": "N/A",
+                  "tccnsEquivalent": "N/A",
+                  "additionalFee": false,
+                  "fee_type": "N/A",
+                  "formerly": "N/A",
+                  "typicallyoffered": "N/A"
+                }
+              },
+              {
+                "courseCode": "ECE 4339",
+                "courseName" : "Physical Principles of Solid State Devices",
+                "credits": 3,
+                "type": "elective",
+                "category": "ece",
+                "details": {
+                  "title": "Physical Principles of Solid State Devices",
+                  "lectureContactHours": 3,
+                  "labContactHours": 0,
+                  "prerequisite": "ECE 3155, ECE 3355, and credit for or concurrent enrollment in ECE 4119.",
+                  "corequisite": "N/A",
+                  "description": "Electronics, modern physics, and electromagnetism used to develop fundamental understanding of bipolar, Schottky, and MOS solid state device operation.",
+                  "repeatability": false,
+                  "note": "N/A",
+                  "coreCategory": "N/A",
+                  "tccnsEquivalent": "N/A",
+                  "additionalFee": false,
+                  "fee_type": "N/A",
+                  "formerly": "N/A",
+                  "typicallyoffered": "N/A"
+                }
+              }
+        ],
+        "cpe": [
+		{
+		  "courseCode": "MECE 2361",
+		  "courseName" : "Introduction to Mechanical Design",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "cpe",
+		  "details": {
+			"title": "Introduction to Mechanical Design",
+			"lectureContactHours": 2,
+			"labContactHours": 3,
+			"prerequisite": "ENGI 1100.",
+			"corequisite": "Credit for or concurrent enrollment in ENGI 2304 and in MECT 3341 or equivalent drafting experience.",
+			"description": "Introduction to engineering design. Individual and group projects.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "N/A",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": true,
+			"fee_type": "Engineering Equipment Access Fee",
+			"formerly": "N/A",
+			"typicallyoffered": "N/A"
+		  }
+		},
+		{
+		  "courseCode": "MECE 3345",
+		  "courseName" : "Materials Science",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "cpe",
+		  "details": {
+			"title": "Materials Science",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "MECE 2334, CHEM 1312 and CHEM 1112.",
+			"corequisite": "N/A",
+			"description": "Properties of materials described by and related to materials structure. Emphasis on mechanical properties of materials.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "N/A",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": true,
+			"fee_type": "Engineering Equipment Access Fee",
+			"formerly": "N/A",
+			"typicallyoffered": "N/A"
+		  }
+		},
+		{
+		  "courseCode": "MECE 4343",
+		  "courseName" : "Thermal Design",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "cpe",
+		  "details": {
+			"title": "Thermal Design",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "MECE 2334 and credit for or concurrent enrollment in MECE 4364.",
+			"corequisite": "N/A",
+			"description": "Power and refrigeration cycles, mixture of ideal gases, basic combustion processes, equilibrium, thermodynamics of compressible flow, thermal system design.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "N/A",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": false,
+			"fee_type": "N/A",
+			"formerly": "MECE 3334 Thermodynamics II",
+			"typicallyoffered": "N/A"
+		  }
+		},
+		{
+		  "courseCode": "MECE 3363",
+		  "courseName" : "Introduction to Fluid Mechanics",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "cpe",
+		  "details": {
+			"title": "Introduction to Fluid Mechanics",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "MECE 2334, MECE 3336, and credit for or concurrent enrollment in MATH 3363.",
+			"corequisite": "N/A",
+			"description": "Fluid properties, control volume and differential balance equations, viscous and irrotational flows, dimensional analysis, laminar and turbulent flows.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "N/A",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": false,
+			"fee_type": "N/A",
+			"formerly": "N/A",
+			"typicallyoffered": "N/A"
+		  }
+		}
+	  ],
+      "language": [
+		{
+		  "courseCode": "PHIL 1301",
+		  "courseName" : "Intro To Philosophy",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "language",
+		  "details": {
+			"title": "Intro To Philosophy",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "ENGL 1301.",
+			"corequisite": "N/A",
+			"description": "Introduction to philosophy: issues such as the nature and extent of knowledge, the objectivity of scientific theories, the rationality of theistic belief, and human freedom.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "(40) Core-Language, Philosophy & Culture",
+			"tccnsEquivalent": "PHIL 1301",
+			"additionalFee": true,
+			"fee_type": "N/A",
+			"formerly": "PHIL 1340",
+			"typicallyoffered": "N/A"
+		  }
+		},
+		{
+		  "courseCode": "PHIL 1361",
+		  "courseName" : "Philosophy and the Arts",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "language",
+		  "details": {
+			"title": "Philosophy and the Arts",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "ENGL 1301.",
+			"corequisite": "N/A",
+			"description": "Introduction to philosophical topics in the visual and performing arts, including criticism, interpretation, moral issues, and cultural contexts.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "(50) Core-Creative Arts",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": true,
+			"fee_type": "N/A",
+			"formerly": "N/A",
+			"typicallyoffered": "N/A"
+		  }
+		},
+		{
+		  "courseCode": "ENGL 3325",
+		  "courseName" : "Structures of Poetry",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "language",
+		  "details": {
+			"title": "Structures of Poetry",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "ENGL 1302 or equivalent.",
+			"corequisite": "N/A",
+			"description": "Comparison of novels representing various periods in Western cultures with emphasis on a broad historical perspective on the genre, as well as its special characteristics.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "(40) Core-Language, Philosophy & Culture",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": true,
+			"fee_type": "N/A",
+			"formerly": "N/A",
+			"typicallyoffered": "N/A"
+		  }
+		},
+		{
+		  "courseCode": "ETHN 2300",
+		  "courseName" : "Introduction to Ethnic Studies",
+		  "credits": 3,
+		  "type": "elective",
+		  "category": "language",
+		  "details": {
+			"title": "Introduction to Ethnic Studies",
+			"lectureContactHours": 3,
+			"labContactHours": 0,
+			"prerequisite": "ENGL 1302.",
+			"corequisite": "N/A",
+			"description": "This course serves as an introduction to the study of race and ethnicity in the U.S. Through a combination of historical narratives, autobiography, fiction, and analytical essays, students will gain a glimpse into the spectrum of identities and issues inherent in American culture. Current issues and events will also be analyzed through the prism of race and ethnicity.",
+			"repeatability": false,
+			"note": "N/A",
+			"coreCategory": "(40) Core-Language, Philosophy & Culture",
+			"tccnsEquivalent": "N/A",
+			"additionalFee": false,
+			"fee_type": "N/A",
+			"formerly": "N/A",
+			"typicallyoffered": "N/A"
+		  }
+		}
+	  ]
+    }
+}
